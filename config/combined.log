@@ -1,0 +1,160 @@
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 1 posts"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"User not found for delete: 689c998b9003ee313b201e4e"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 999"}
+{"level":"warn","message":"Post not found for update. id: 689e33e587f4b938aeaf5f63"}
+{"level":"warn","message":"Registration failed: Email already exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Post created successfully. postId: 92349"}
+{"level":"info","message":"Post created successfully. postId: 232"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 232"}
+{"level":"info","message":"Post created successfully. postId: 5345"}
+{"level":"info","message":"Post created successfully. postId: 492"}
+{"level":"info","message":"Post created successfully. postId: 423423"}
+{"level":"info","message":"Post created successfully. postId: 202"}
+{"level":"info","message":"Post created successfully. postId: 313"}
+{"level":"info","message":"Fetched 8 posts"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Password reset successful: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Login failed: Wrong password for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"error","message":"Login error: otpCode is not defined"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"error","message":"OTP verification error: OTP is not defined"}
+{"level":"error","message":"OTP verification error: OTP is not defined"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Reset password failed: Invalid OTP for shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 8 posts"}
+{"level":"info","message":"Post created successfully. postId: 433"}
+{"level":"info","message":"Post created successfully. postId: 332"}
+{"level":"info","message":"Post created successfully. postId: 900"}
+{"level":"info","message":"Post created successfully. postId: 102"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email already exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"warn","message":"Post not found for update. id: 689e33e587f4b938aeaf5f63"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"Fetched 12 posts"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users successfully}"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched 10 posts successfully"}
+{"level":"info","message":"Fetched 2 posts successfully"}
+{"level":"info","message":"Fetched 2 posts successfully"}
+{"level":"info","message":"Fetched 1 posts successfully"}
+{"level":"info","message":"Fetched 2 posts successfully"}
+{"level":"info","message":"Fetched 2 posts successfully"}
+{"level":"info","message":"Fetched 10 posts successfully"}
+{"level":"info","message":"Fetched 10 posts successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}

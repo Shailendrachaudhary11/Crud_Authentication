@@ -7,15 +7,16 @@ const loginLimiter = require("../middleware/rateLimiter"); // import the middlew
 const { registerSchema, loginSchema, forgotPasswordSchema, resetPasswordSchema } = require("../validations/userValidation");
 
 // Register route
-router.post("/register", validate(registerSchema), authController.register);
+router.post("/register",loginLimiter, validate(registerSchema), authController.register);
 
 // Login route with rate limiter
-router.post("/login", loginLimiter, validate(loginSchema), authController.login);
+router.post("/login/sendOTP",loginLimiter, validate(loginSchema), authController.login);
+router.post("/login/verifyOPT", authController.verifyOtpThenLogin);
 
 // Forgot password
-router.post("/forgot-password", validate(forgotPasswordSchema), authController.forgotPassword);
+router.post("/forgot-password",loginLimiter, validate(forgotPasswordSchema), authController.forgotPassword);
 
 // Reset password
-router.post("/reset-password", validate(resetPasswordSchema), authController.resetPassword);
+router.post("/reset-password",loginLimiter, validate(resetPasswordSchema), authController.resetPassword);
 
 module.exports = router;
