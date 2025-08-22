@@ -21,7 +21,12 @@ exports.register = catchAsync(async (req, res, next) => {
   }
 
   const hashedPassword = await bcrypt.hash(password, 10);
-  const user = new User({ username, usergmail, password: hashedPassword, role });
+
+  const profileImage = req.file ? req.file.filename : null; // file means image 
+  console.log(req.file); 
+
+
+  const user = new User({ username, usergmail, password: hashedPassword, role ,profileImage});
   await user.save();
 
   logger.info(`New user registered: ${usergmail} (role: ${role})`);

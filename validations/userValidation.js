@@ -4,7 +4,8 @@ exports.registerSchema = Joi.object({
   username: Joi.string().min(3).required(),
   usergmail: Joi.string().email().required(),
   password: Joi.string().min(6).required(),
-  role: Joi.string().valid("user", "admin").default("user")
+  role: Joi.string().valid("user", "admin").default("user"),
+  profileImage: Joi.string().default("null")
 });
 
 exports.loginSchema = Joi.object({

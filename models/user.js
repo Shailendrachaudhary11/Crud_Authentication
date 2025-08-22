@@ -7,6 +7,7 @@ const userSchema = new mongoose.Schema({
   role: { type: String, enum: ["user", "admin"], default: "user" },
   otp: String,
   otpExpires: Date,
+  profileImage: { type: String, default: null },
 }, { timestamps: true });
 
 module.exports = mongoose.model("User", userSchema);

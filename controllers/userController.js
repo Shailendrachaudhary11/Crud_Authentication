@@ -10,7 +10,7 @@ const catchAsync = require('../utils/catchAsync');
 exports.getAllUsers = catchAsync(async (req, res, next) => {
   // Query Params: ?page=1&limit=10&sort=name&role=admin
   const page = parseInt(req.query.page) || 1;   // default page = 1
-  const limit = parseInt(req.query.limit) || 1; // default limit = 10
+  const limit = parseInt(req.query.limit) || 5; // default limit = 10
   const skip = (page - 1) * limit;
 
   // Filtering (e.g. ?role=admin)
