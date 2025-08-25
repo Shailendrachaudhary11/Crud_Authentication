@@ -23,7 +23,7 @@ exports.createPost = catchAsync(async (req, res, next) => {
   });
 });
 
-// ====== GET ALL POSTS ======  pagination, filtering और sorting 
+// ====== GET ALL POSTS ======
 exports.getAllPosts = catchAsync(async (req, res, next) => {
   // Query Params: ?page=1&limit=10&sort=createdAt&userId=xyz
   const page = parseInt(req.query.page) || 1;   // default page = 1
@@ -106,3 +106,6 @@ exports.deletePost = catchAsync(async (req, res, next) => {
     data: { deletedPostId: req.params.id },
   });
 });
+
+
+

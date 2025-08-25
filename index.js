@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require("path");
+const helmet = require("helmet");   // <-- helmet import
 require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
@@ -10,6 +11,10 @@ const postRoutes = require('./routes/posts');
 const errorHandler = require('./middleware/errorMiddleware'); // <-- error handler import
 
 const app = express();  // <-- yeh line sabse pehle honi chahiye
+
+// Helmet middleware (secure headers)
+app.use(helmet());
+
 app.use(express.json());
 
 // Serve uploaded files

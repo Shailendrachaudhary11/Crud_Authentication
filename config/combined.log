@@ -180,3 +180,22 @@
 {"level":"info","message":"New user registered: pawan@gamil.com (role: admin)"}
 {"level":"info","message":"New user registered: pawan@gamil.com (role: admin)"}
 {"level":"warn","message":"Registration failed: Email exists -> pawan@gamil.com"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"New user registered: pawan@gamil.com (role: admin)"}
+{"level":"info","message":"New user registered: pawan@gamil.com (role: admin)"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gamil.com"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"User not found for delete: 689c998b9003ee313b201e4e"}
+{"level":"info","message":"User deleted: 689e2e5042f1e1ee05d2e621"}
+{"level":"info","message":"OTP sent to shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}

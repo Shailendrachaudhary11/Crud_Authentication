@@ -23,8 +23,6 @@ exports.register = catchAsync(async (req, res, next) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
   const profileImage = req.file ? req.file.filename : null; // file means image 
-  console.log(req.file); 
-
 
   const user = new User({ username, usergmail, password: hashedPassword, role ,profileImage});
   await user.save();
@@ -60,7 +58,7 @@ exports.login = catchAsync(async (req, res, next) => {
     subject: "Your OTP Code",
     text: `Your OTP is ${otp}. Expires in 5 minutes.`,
   });
-
+  console.log(otp)
   logger.info(`OTP sent to ${usergmail}`);
   res.json({ success: true, message: "OTP sent to email. Please verify." });
 });
@@ -78,7 +76,7 @@ exports.verifyOtpThenLogin = catchAsync(async (req, res, next) => {
   await user.save();
 
   const token = jwt.sign({ userId: user._id, role: user.role }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN || "1d",
+    expiresIn: process.env.JWT_EXPIRES_IN || "1h",
   });
 
   logger.info(`User logged in with OTP: ${usergmail}`);
@@ -122,3 +120,6 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   logger.info(`Password reset successful: ${usergmail}`);
   res.json({ success: true, message: "Password reset successfully" });
 });
+
+
+
