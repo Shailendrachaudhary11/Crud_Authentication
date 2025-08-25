@@ -11,11 +11,13 @@ const { registerSchema, loginSchema, forgotPasswordSchema, resetPasswordSchema }
 router.post("/register",loginLimiter, upload.single("profileImage"), validate(registerSchema), authController.register);
 
 // Login route with rate limiter
-router.post("/login/sendOTP",loginLimiter, validate(loginSchema), authController.login);
-router.post("/login/verifyOPT", authController.verifyOtpThenLogin);
+router.post("/login",loginLimiter, validate(loginSchema), authController.login);
+
+
+router.post("/logout",loginLimiter,authController.logout);
 
 // Forgot password
-router.post("/forgot-password",loginLimiter, validate(forgotPasswordSchema), authController.forgotPassword);
+router.post("/forgot-password",loginLimiter, authController.forgotPassword);
 
 // Reset password
 router.post("/reset-password",loginLimiter, validate(resetPasswordSchema), authController.resetPassword);
