@@ -8,14 +8,16 @@ const loginLimiter = require("../middleware/rateLimiter"); // import the middlew
 // All user routes protected
 router.use(authenticate);
 
+// ====== GET ALL USERS ====== 
+router.get('/', loginLimiter, authorize(['admin']), userController.getAllUsers);
 
-// Only admin can get all users
-router.get('/',loginLimiter, authorize(['admin']), userController.getAllUsers);
+// ====== GET USER BY ID ======
+router.get('/:id', loginLimiter, authorize(['admin', 'user']), userController.getUserById);
 
-// Admin and user can get single user by id
-router.get('/:id',loginLimiter, authorize(['admin', 'user']), userController.getUserById);
+// ====== UPDATE USER BY ID ======
+router.post('/:id', loginLimiter, authorize(['admin']), userController.updateById);
 
-router.post('/:id',loginLimiter, authorize(['admin']),userController.updateById);
-router.delete('/:id',loginLimiter, authorize(['admin']), userController.deleteUserById);
+// ====== DELETE USER BY ID ======
+router.delete('/:id', loginLimiter, authorize(['admin']), userController.deleteUserById);
 
 module.exports = router;

@@ -1,5 +1,4 @@
 // controllers/authController.js
-
 const User = require("../models/user");       // User model import
 const bcrypt = require("bcryptjs");           // Password hashing
 const jwt = require("jsonwebtoken");          // JWT token generation and verification
@@ -16,13 +15,13 @@ const transporter = nodemailer.createTransport({
   auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS },
 });
 
-
 // ======================= REGISTER USER =======================
 exports.register = catchAsync(async (req, res, next) => {
   const { username, usergmail, password, role } = req.body;
 
   // Check if user already exists
   if (await User.findOne({ usergmail })) {
+    
     logger.warn(`Registration failed: Email exists -> ${usergmail}`);
     return next(new AppError("User email already exists", 400));
   }
@@ -48,8 +47,8 @@ exports.register = catchAsync(async (req, res, next) => {
   });
 
   res.status(201).json({ success: true, message: "User registered successfully. Email sent." });
-});
 
+});
 
 // ======================= LOGIN (with OTP) =======================
 exports.login = catchAsync(async (req, res, next) => {
@@ -82,9 +81,6 @@ exports.login = catchAsync(async (req, res, next) => {
 
 });
 
-
-
-
 // ======================= LOGOUT =======================
 exports.logout = catchAsync(async (req, res, next) => {
   const { usergmail } = req.body;
@@ -107,8 +103,6 @@ exports.logout = catchAsync(async (req, res, next) => {
 
   res.json({ success: true, message: "Logout successful" });
 });
-
-
 
 // ======================= FORGOT PASSWORD (Send OTP via Email + Phone) =======================
 exports.forgotPassword = catchAsync(async (req, res, next) => {
@@ -145,10 +139,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   res.json({ success: true, message: "OTP sent to email and phone if provided." });
 });
 
-
 // ======================= RESET PASSWORD =======================
-
-
 exports.resetPassword = catchAsync(async (req, res, next) => {
   const { usergmail, otp, newPassword } = req.body;
 

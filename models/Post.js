@@ -9,3 +9,9 @@ const postSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model("Post", postSchema);
+
+
+// इस case में हर Post document में userId store होगा।
+// और जब आप Post.find().populate("userId") करेंगे, तो User का पूरा object आ जाएगा।
+
+// ✅ Use Case: जब आपको child → parent relation चाहिए (जैसे हर Post को किस User ने बनाया)।

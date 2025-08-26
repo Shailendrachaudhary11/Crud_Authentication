@@ -25,32 +25,11 @@ exports.createPost = catchAsync(async (req, res, next) => {
 
 // ====== GET ALL POSTS ======
 exports.getAllPosts = catchAsync(async (req, res, next) => {
-  // Query Params: ?page=1&limit=10&sort=createdAt&userId=xyz
-  const page = parseInt(req.query.page) || 1;   // default page = 1
-  const limit = parseInt(req.query.limit) || 10; // default limit = 10
-  const skip = (page - 1) * limit;
 
-  // Filtering (e.g. ?userId=12345)
-  const queryObj = { ...req.query };
-  const excludedFields = ["page", "limit", "sort"];
-  excludedFields.forEach((el) => delete queryObj[el]);
 
-  // Sorting (e.g. ?sort=createdAt or ?sort=-createdAt)
-  let sortBy = "";
-  if (req.query.sort) {
-    sortBy = req.query.sort.split(",").join(" ");
-  } else {
-    sortBy = "-createdAt"; // default sort (latest post first)
-  }
-
-  // Fetch posts with pagination, filtering & sorting
-  const posts = await Post.find(queryObj)
+  const posts = await Post.find()
     .populate("userId", "username usergmail")
-    .sort(sortBy)
-    .skip(skip)
-    .limit(limit);
 
-  const total = await Post.countDocuments(queryObj);
 
   if (!posts) {
     logger.error("Error in getAllPosts: No posts found");
@@ -62,13 +41,23 @@ exports.getAllPosts = catchAsync(async (req, res, next) => {
   res.json({
     success: true,
     count: posts.length,
-    totalPosts: total,
-    totalPages: Math.ceil(total / limit),
-    currentPage: page,
     data: posts,
   });
 });
 
+// ====== GET POST BY ID =========
+exports.getPostById = catchAsync(async (req, res, next) => {
+  const post = await Post.findById(req.params.id);
+  if (!post) {
+    logger.warn(`post not found with id: ${req.params.id}`);
+    return next(new AppError("post not found", 404));
+  }
+  res.json({ success: true, data: post });
+  logger.info(`Fetched post by id: ${req.params.id}`);
+
+  logger.error(`Invalid post by`);
+  res.status(400).json({ success: false, message: "Invalid post Id" });
+})
 
 // ====== UPDATE POST ======
 exports.updatePost = catchAsync(async (req, res, next) => {
@@ -106,6 +95,22 @@ exports.deletePost = catchAsync(async (req, res, next) => {
     data: { deletedPostId: req.params.id },
   });
 });
+
+// ====== DELETE ALL POST ======
+exports.deleteAllPost = catchAsync(async (req, res, next) => {
+  const result = await Post.deleteMany({});
+  if (!result) {
+    logger.warn(`something went wrong to delete post`);
+    return next(new AppError("Some went wrong to delete post"))
+  }
+
+  logger.info(`All post deleted`);
+  res.status(200).json({
+    success: true,
+    message: "All Post deleted"
+  })
+
+})
 
 
 

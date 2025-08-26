@@ -230,3 +230,44 @@
 {"level":"info","message":"Logout successful: shailendra.chaudhary_cs21@gla.ac.in"}
 {"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in and phone: +918791487240"}
 {"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 102"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 102"}
+{"level":"info","message":"Post created successfully. postId: 1022"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gamil.com"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gamil.com"}
+{"level":"warn","message":"User not found for delete: 689e2e5042f1e1ee05d2e621"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Logout successful: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"OTP sent to email: shailendra.chaudhary_cs21@gla.ac.in and phone: +918791487240"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched post by id: 68a487d34998f8e6f7486892"}
+{"level":"error","message":"Invalid post by"}
+{"level":"info","message":"Fetched 10 posts successfully"}
+{"level":"info","message":"Fetched post by id: 68a487d34998f8e6f7486892"}
+{"level":"error","message":"Invalid post by"}
+{"level":"warn","message":"post not found with id: 78a487d34998f8e6f7486892"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"All post deleted"}
+{"level":"info","message":"Post created successfully. postId: 1022"}
+{"level":"info","message":"Post created successfully. postId: 101"}
+{"level":"info","message":"Post created successfully. postId: 222"}
+{"level":"info","message":"Post created successfully. postId: 890"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Post created successfully. postId: 121"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 121"}
+{"level":"info","message":"Post created successfully. postId: 434"}
+{"level":"info","message":"Post created successfully. postId: 111"}
+{"level":"info","message":"Post created successfully. postId: 009"}
+{"level":"info","message":"Post created successfully. postId: 454"}
+{"level":"info","message":"Post created successfully. postId: 443"}
+{"level":"info","message":"User logged in with OTP: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}
+{"level":"info","message":"Fetched all users successfully"}

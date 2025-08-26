@@ -6,34 +6,12 @@ const AppError = require('../utils/AppError');
 const catchAsync = require('../utils/catchAsync');
 
 
-// ====== GET ALL USERS ====== pagination, filtering और sorting 
+// ====== GET ALL USERS ====== 
 exports.getAllUsers = catchAsync(async (req, res, next) => {
-  // Query Params: ?page=1&limit=10&sort=name&role=admin
-  const page = parseInt(req.query.page) || 1;   // default page = 1
-  const limit = parseInt(req.query.limit) || 5; // default limit = 10
-  const skip = (page - 1) * limit;
 
-  // Filtering (e.g. ?role=admin)
-  const queryObj = { ...req.query };
-  const excludedFields = ["page", "limit", "sort"];
-  excludedFields.forEach((el) => delete queryObj[el]);
-
-  // Sorting (e.g. ?sort=name or ?sort=-createdAt)
-  let sortBy = "";
-  if (req.query.sort) {
-    sortBy = req.query.sort.split(",").join(" ");
-  } else {
-    sortBy = "-createdAt"; // default sort by latest
-  }
-
-  // Fetch users with pagination, filtering & sorting
-  const users = await User.find(queryObj)
-    .select("-password")
-    .sort(sortBy)
-    .skip(skip)
-    .limit(limit);
-
-  const total = await User.countDocuments(queryObj);
+  const users = await User.find()
+    .select("-password -otpExpires -refreshToken -otp")
+    .populate("posts")
 
   if (!users) {
     logger.error("Error in getAllUsers: No users found");
@@ -45,8 +23,6 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
   res.json({
     success: true,
     count: users.length,
-    totalPages: Math.ceil(total / limit),
-    currentPage: page,
     data: users,
   });
 });
