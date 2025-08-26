@@ -1,21 +1,25 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require("path");
-const helmet = require("helmet");   // <-- helmet import
+const cookieParser = require('cookie-parser');
+const helmet = require("helmet");
 require('dotenv').config();
 
 const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const postRoutes = require('./routes/posts');
 
-const errorHandler = require('./middleware/errorMiddleware'); // <-- error handler import
+const errorHandler = require('./middleware/errorMiddleware');
+const logger = require('./config/logger');
 
-const app = express();  // <-- yeh line sabse pehle honi chahiye
+const app = express();
 
-// Helmet middleware (secure headers)
+// Helmet middleware
 app.use(helmet());
 
+// Body parser & cookie parser
 app.use(express.json());
+app.use(cookieParser());
 
 // Serve uploaded files
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
@@ -30,8 +34,13 @@ app.use('/api/posts', postRoutes);
 // Error handler
 app.use(errorHandler);
 
+// Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI)
-    .then(() => console.log('MongoDB connected'))
-    .catch(err => console.error(err));
+    .then(() => logger.info('MongoDB connected'))
+    .catch(err => logger.error('MongoDB connection error: ', err));
 
-app.listen(process.env.PORT, () => console.log(`Server running on port ${process.env.PORT}`));
+// Start server
+app.listen(process.env.PORT, () => {
+    logger.info(`Server running on port ${process.env.PORT}`);
+    console.log(`Server running on port ${process.env.PORT}`);
+});

@@ -14,7 +14,8 @@ exports.loginSchema = Joi.object({
 });
 
 exports.forgotPasswordSchema = Joi.object({
-  usergmail: Joi.string().email().required()
+  usergmail: Joi.string().email().required(),
+
 });
 
 exports.resetPasswordSchema = Joi.object({

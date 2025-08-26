@@ -15,7 +15,7 @@ router.get('/', loginLimiter, authorize(['admin']), userController.getAllUsers);
 router.get('/:id', loginLimiter, authorize(['admin', 'user']), userController.getUserById);
 
 // ====== UPDATE USER BY ID ======
-router.post('/:id', loginLimiter, authorize(['admin']), userController.updateById);
+router.put('/:id', loginLimiter, authorize(['admin']), userController.updateById);
 
 // ====== DELETE USER BY ID ======
 router.delete('/:id', loginLimiter, authorize(['admin']), userController.deleteUserById);

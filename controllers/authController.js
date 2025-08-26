@@ -21,7 +21,7 @@ exports.register = catchAsync(async (req, res, next) => {
 
   // Check if user already exists
   if (await User.findOne({ usergmail })) {
-    
+
     logger.warn(`Registration failed: Email exists -> ${usergmail}`);
     return next(new AppError("User email already exists", 400));
   }
@@ -50,20 +50,32 @@ exports.register = catchAsync(async (req, res, next) => {
 
 });
 
-// ======================= LOGIN (with OTP) =======================
+// ======================= LOGIN  =======================
 exports.login = catchAsync(async (req, res, next) => {
   const { usergmail, password } = req.body;
+  logger.info(`Login attempt for email: ${usergmail}`);
 
   // Find user in DB
   const user = await User.findOne({ usergmail });
-  if (!user) return next(new AppError("Invalid credentials", 400));
+  if (!user) {
+    logger.warn(`Login failed: User not found -> ${usergmail}`);
+    return next(new AppError("Invalid credentials", 400));
+  }
 
   // Compare password
   const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) return next(new AppError("Invalid credentials", 400));
-  const token = jwt.sign({ userId: user._id, role: user.role }, process.env.JWT_SECRET, {
-    expiresIn: process.env.JWT_EXPIRES_IN || "1m",
-  });
+  if (!isMatch) {
+    logger.warn(`Login failed: Incorrect password -> ${usergmail}`);
+    return next(new AppError("Invalid credentials", 400));
+  }
+
+  // Generate access token
+  const token = jwt.sign(
+    { userId: user._id, role: user.role },
+    process.env.JWT_SECRET,
+    { expiresIn: process.env.JWT_EXPIRES_IN || "1m" }
+  );
+  logger.info(`Access token generated for user: ${usergmail}`);
 
   // Generate refresh token (long expiry)
   const refreshToken = jwt.sign(
@@ -72,51 +84,79 @@ exports.login = catchAsync(async (req, res, next) => {
     { expiresIn: "7d" }
   );
 
-  // Save refresh token in DB
-  user.refreshToken = refreshToken;
+   const hashrefereshToken = await bcrypt.hash(refreshToken, 10);
+  user.refreshToken = hashrefereshToken;
   await user.save();
+  logger.info(`Refresh token saved for user: ${usergmail}`);
 
-  logger.info(`User logged in with OTP: ${usergmail}`);
-  res.json({ success: true, message: "Login successful", token, refreshToken });
+  // set httpOnly cookie for refresh token
+  res.cookie("refreshToken", refreshToken, {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === 'production',
+    sameSite: 'strict',
+    maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days
+  });
+  logger.info(`Refresh token cookie set for user: ${usergmail}`);
 
+  res.json({ success: true, message: "Login successful", token });
+  logger.info(`Login successful response sent to user: ${usergmail}`);
 });
+
 
 // ======================= LOGOUT =======================
 exports.logout = catchAsync(async (req, res, next) => {
-  const { usergmail } = req.body;
+  const refreshToken = req.cookies?.refreshToken || req.body?.refreshToken;
+  logger.info("Logout attempt");
 
-  // Find user
-  const user = await User.findOne({ usergmail });
-  if (!user) return next(new AppError("Invalid credentials", 400));
+  if (!refreshToken) {
+    logger.warn("Logout failed: No refresh token provided");
+    return next(new AppError("No refresh token provided", 400));
+  }
 
-  // Check if already logged out
-  if (!user.refreshToken) return next(new AppError("You are already logout."));
+  // Find user with refreshToken
+  const user = await User.findOne({ refreshToken });
+  if (!user) {
+    logger.warn("Logout failed: Invalid refresh token or already logged out");
+    return next(new AppError("Invalid refresh token or already logged out", 400));
+  }
 
-  // Remove refresh token from DB
+  // Remove refreshToken from DB
   user.refreshToken = undefined;
   await user.save();
+  logger.info(`Refresh token removed from DB for user: ${user.usergmail}`);
 
-  logger.info(`Logout successful: ${usergmail}`);
-
-  // Optional: clear cookie if using cookies for refresh token
-  res.clearCookie("refreshToken");
+  // Clear cookie
+  res.clearCookie("refreshToken", {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "strict",
+  });
+  logger.info(`Refresh token cookie cleared for user: ${user.usergmail}`);
 
   res.json({ success: true, message: "Logout successful" });
+  logger.info(`Logout successful response sent for user: ${user.usergmail}`);
 });
+
+
 
 // ======================= FORGOT PASSWORD (Send OTP via Email + Phone) =======================
 exports.forgotPassword = catchAsync(async (req, res, next) => {
   const { usergmail, phoneNumber } = req.body; // Accept phone number too
+  logger.info(`Forgot password request received for email: ${usergmail}`);
 
   // Find user
   const user = await User.findOne({ usergmail });
-  if (!user) return next(new AppError("User not found", 404));
+  if (!user) {
+    logger.warn(`Forgot password failed: User not found -> ${usergmail}`);
+    return next(new AppError("User not found", 404));
+  }
 
   // Generate OTP for password reset
   const otp = Math.floor(100000 + Math.random() * 900000).toString();
   user.otp = otp;
   user.otpExpires = Date.now() + 2 * 60 * 1000; // 2 min expiry
   await user.save();
+  logger.info(`OTP generated for user: ${usergmail}, expires in 2 minutes`);
 
   // Send OTP via Email
   await transporter.sendMail({
@@ -125,6 +165,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
     subject: "Password Reset OTP",
     text: `Your OTP is ${otp}. Do not share.`,
   });
+  logger.info(`OTP email sent to: ${usergmail}`);
 
   // Send OTP via SMS using Twilio
   if (phoneNumber) {
@@ -133,11 +174,13 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
       from: process.env.TWILIO_PHONE_NUMBER,
       to: phoneNumber
     });
+    logger.info(`OTP SMS sent to phone: ${phoneNumber}`);
   }
 
-  logger.info(`OTP sent to email: ${usergmail} and phone: ${phoneNumber || 'N/A'}`);
   res.json({ success: true, message: "OTP sent to email and phone if provided." });
+  logger.info(`Forgot password response sent for user: ${usergmail}`);
 });
+
 
 // ======================= RESET PASSWORD =======================
 exports.resetPassword = catchAsync(async (req, res, next) => {
