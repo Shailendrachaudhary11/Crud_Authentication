@@ -6,19 +6,29 @@ const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     cb(null, "uploads/");
   },
-  filename: (req, file, cb) => {
-    const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
-    cb(null, uniqueSuffix + path.extname(file.originalname));
+  filename: function (req, file, cb) {
+    cb(null, Date.now() + path.extname(file.originalname)); 
   },
 });
 
-// File filter for images only
+// File filter for images + text/json/csv
 const fileFilter = (req, file, cb) => {
-  const allowedTypes = /jpeg|jpg|png|gif/;
-  const extname = allowedTypes.test(path.extname(file.originalname).toLowerCase());
-  const mimetype = allowedTypes.test(file.mimetype);
-  if (mimetype && extname) return cb(null, true);
-  cb(new Error("Only images are allowed (jpeg, jpg, png, gif)"));
+  const filetypes = /jpeg|jpg|png|gif|csv|txt|json/;
+  const extname = filetypes.test(path.extname(file.originalname).toLowerCase());
+
+  // Handle mimetypes properly
+  const mimetype =
+    file.mimetype.startsWith("image/") ||
+    file.mimetype === "text/plain" ||
+    file.mimetype === "application/json" ||
+    file.mimetype === "text/csv" ||
+    file.mimetype === "application/vnd.ms-excel";
+
+  if (extname && mimetype) {
+    return cb(null, true);
+  } else {
+    cb(new Error("Only images or files are allowed in (jpeg, jpg, png, gif, csv, txt, json)"));
+  }
 };
 
 // Max file size: 2MB

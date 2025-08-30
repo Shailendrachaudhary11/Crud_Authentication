@@ -270,3 +270,1646 @@
 {"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
 {"level":"info","message":"Request received: Get all posts"}
 {"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 117ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 72ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 165ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 65ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from DB in 65ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from DB in 589ms"}
+{"level":"info","message":"Fetched all users from DB in 63ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 2ms"}
+{"level":"info","message":"Fetched all users from DB in 63ms"}
+{"level":"info","message":"Fetched all users from DB in 61ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 163ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 61ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 60ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 59ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 0ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 64ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 2ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 58ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 0ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from Redis cache in 0ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 137ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 60ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 61ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 62ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 60ms"}
+{"level":"info","message":"Post updated successfully. id: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 61ms"}
+{"level":"info","message":"Create post request received. postId: 443, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 443, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 111, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 111, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Post created successfully. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 60ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 74ms"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 31ms"}
+{"level":"info","message":"Fetched all users from DB in 62ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 34ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 31ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 73ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from Redis cache in 2ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from Redis cache in 1ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 76ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 64ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 63ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 69ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 65ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from Redis cache in 1ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gamil.com"}
+{"level":"info","message":"New user registered: pawan@gamil.co (role: admin)"}
+{"level":"info","message":"Fetched all users from DB in 72ms"}
+{"level":"info","message":"User deleted: 68aef896e97d7a17cf4576aa"}
+{"level":"warn","message":"User not found for delete: 68aef896e97d7a17cf4576aa"}
+{"level":"info","message":"Fetched all users from DB in 65ms"}
+{"level":"warn","message":"User not found for delete: 68aef896e97d7a17cf4576aa"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 76ms"}
+{"level":"info","message":"Fetched all users from DB in 64ms"}
+{"level":"info","message":"Fetched all users from DB in 64ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 2ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 224ms"}
+{"level":"info","message":"Fetched all users from DB in 157ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 174ms"}
+{"level":"info","message":"Fetched all users from DB in 96ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 43ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 313ms"}
+{"level":"info","message":"Fetched all users from DB in 62ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from DB in 63ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 65ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 61ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 62ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 77ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 64ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 150ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Fetched all users from DB in 89ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 81ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 70ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 73ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 74ms"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 80ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 71ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 71ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Fetched all users from DB in 73ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: Invalid refresh token or already logged out"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie cleared for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout successful response sent for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 439ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 76ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 153ms"}
+{"level":"info","message":"Fetched all users from DB in 129ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 2ms"}
+{"level":"info","message":"Fetched all users from DB in 87ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 109ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"Post updated successfully. id: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 410ms"}
+{"level":"info","message":"Fetched all users from DB in 65ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 132ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 117ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 105ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 67ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 78ms"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user undefined "}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user undefined "}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 104ms"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie cleared for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout successful response sent for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user undefined "}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 70ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 90ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 69ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 90ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 630ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 705ms"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user undefined"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user undefined "}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec "}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 111ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 210ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 137ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 148ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"New user registered: pawan@gmail.com (role: admin)"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gmail.com"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gmail.com"}
+{"level":"info","message":"Fetched all users from DB in 159ms"}
+{"level":"info","message":"Fetched all users from DB in 180ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 1ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 3ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 66ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 117ms"}
+{"level":"info","message":"Fetched post by id 68ad9d62dd873027fdbb3986 from DB in 81ms"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 720ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 78ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 60ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 196ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 126ms"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie cleared for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout successful response sent for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 81ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 64ms"}
+{"level":"warn","message":"Registration failed: Email exists -> pawan@gmail.com"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 787, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 65ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 97ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 71ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 374ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 74ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 85ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from DB in 63ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 1ms"}
+{"level":"info","message":"Fetched post by id 68ad9e36dd873027fdbb39a3 from Redis cache in 0ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 84ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 494ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 94ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 73ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 565ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 212ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 84ms"}
+{"level":"info","message":"Fetched all users from DB in 80ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 454ms"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie cleared for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout successful response sent for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 94ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 577ms"}
+{"level":"info","message":"Fetched all users from DB in 41ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 78ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 149ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 6ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 2ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 63ms"}
+{"level":"info","message":"Fetched all users from Redis cache in 3ms"}
+{"level":"info","message":"Create post request received. postId: 111, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"warn","message":"Duplicate post creation attempt. postId: 111, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Create post request received. postId: 433, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Post created successfully. postId: 433, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 118ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 74ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 125ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 59ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 106ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 110ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 511ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from DB in 76ms"}
+{"level":"info","message":"Request received: Get all posts"}
+{"level":"info","message":"Fetched all posts from Redis cache in 344ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 146ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 122ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 124ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 567ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 134ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 115ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 122ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 171ms"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie cleared for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Logout successful response sent for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 101ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 122ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 3ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 681ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 527ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 98ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 97ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 186ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 95ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 97ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 99ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 125ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 878ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 121ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 101ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 156ms"}
+{"level":"info","message":"Create post request received. postId: 555, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Post created successfully. postId: 555, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 100ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 147ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 117ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 99ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 126ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 101ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 116ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 97ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 101ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 89ms"}
+{"level":"info","message":"Fetched all users from DB in 94ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 319ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched most commented post from DB in 93ms"}
+{"level":"info","message":"Fetched most commented post from DB in 76ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 198ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 123ms"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec "}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 103ms"}
+{"level":"info","message":"Fetched most commented post from DB in 61ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 95ms"}
+{"level":"info","message":"find post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec"}
+{"level":"info","message":"comment added successfully post with 68ad9d6ddd873027fdbb398a for add commments by user 68a4d6a765e563ac6596a9ec "}
+{"level":"info","message":"Fetched post by id 68ad9d6ddd873027fdbb398a from DB in 436ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 95ms"}
+{"level":"info","message":"Create post request received. postId: 666, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Post created successfully. postId: 666, userId: 68ad9d62dd873027fdbb3986"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 592ms"}
+{"level":"info","message":"Fetched post by id 68ad9d6ddd873027fdbb398a from DB in 87ms"}
+{"level":"info","message":"Fetched most commented post from DB in 66ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 94ms"}
+{"level":"info","message":"Fetched most commented post from DB in 61ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shivam.kumar@gmail.com"}
+{"level":"warn","message":"Login failed: User not found -> shivam.kumar@gmail.com"}
+{"level":"info","message":"New user registered: aman@gmail.com (role: undefined)"}
+{"level":"info","message":"Login attempt for email: aman@gmail.com"}
+{"level":"info","message":"Access token generated for user: aman@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: aman@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: aman@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: aman@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 90ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 63ms"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 62ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 169ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"New user registered: ayush@gmail.com (role: admin)"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Access token generated for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token saved for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Refresh token cookie set for user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Login successful response sent to user: shailendra.chaudhary_cs21@gla.ac.in"}
+{"level":"info","message":"Fetched all users from DB in 77ms"}
+{"level":"info","message":"Fetched user by id 689e352d87f4b938aeaf5f6b from DB in 284ms"}
+{"level":"info","message":"Fetched all users from DB in 69ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"New user registered: ayush@gmail.com (role: admin)"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"warn","message":"Registration failed: Email exists -> ayush@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"warn","message":"Registration failed: Email exists -> ayush@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"New user registered: monu@gmail.com (role: admin)"}
+{"level":"info","message":"Fetched all users from DB in 200ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: monu@gmail.com"}
+{"level":"info","message":"Access token generated for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: monu@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: monu@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: monu@gmail.com"}
+{"level":"info","message":"Access token generated for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: monu@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: monu@gmail.com"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 680ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 108ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 106ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 108ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 120ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 103ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 370ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 184ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 3ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 1ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 101ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 1040ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 122ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 6ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 122ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from Redis cache in 2ms"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 107ms"}
+{"level":"info","message":"Login attempt for email: monu@gmail.com"}
+{"level":"info","message":"Access token generated for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: monu@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: monu@gmail.com"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 106ms"}
+{"level":"info","message":"Logout attempt"}
+{"level":"info","message":"Refresh token removed from DB for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie cleared for user: monu@gmail.com"}
+{"level":"info","message":"Logout successful response sent for user: monu@gmail.com"}
+{"level":"info","message":"Logout attempt"}
+{"level":"warn","message":"Logout failed: No refresh token provided"}
+{"level":"info","message":"Login attempt for email: monu@gmail.com"}
+{"level":"info","message":"Access token generated for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: monu@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: monu@gmail.com"}
+{"level":"info","message":"Request received: Get all posts with pagination and search"}
+{"level":"info","message":"Fetched posts from DB in 104ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: monu@gmail.com"}
+{"level":"info","message":"Access token generated for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: monu@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: monu@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: monu@gmail.com"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 91ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 71ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 135ms"}
+{"level":"info","message":"Fetched all users from DB in 67ms"}
+{"level":"info","message":"Fetched all users from DB in 63ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched all users from DB in 179ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 72ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 69ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from Redis cache in 2ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 69ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"warn","message":"User not found: usergmail=suman.kumar@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"warn","message":"User not found: suman.kumar@gmail.com"}
+{"level":"warn","message":"User not found: suman.kumar@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 515ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 60ms"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"warn","message":"User not found: monu@gmail.com"}
+{"level":"info","message":"Fetched all users from DB in 76ms"}
+{"level":"info","message":"Fetched all users from DB in 59ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 57ms"}
+{"level":"info","message":"Fetched post by id 68af5477605066974a8d615d from DB in 56ms"}
+{"level":"info","message":"New user registered: salonijain@gmail.com (role: admin)"}
+{"level":"info","message":"Login attempt for email: salonijain@gmail.com"}
+{"level":"info","message":"Access token generated for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: salonijain@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: salonijain@gmail.com"}
+{"level":"info","message":"Login attempt for email: salonijain@gmail.com"}
+{"level":"info","message":"Access token generated for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: salonijain@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: salonijain@gmail.com"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 59ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 55ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from Redis cache in 1ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 61ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}

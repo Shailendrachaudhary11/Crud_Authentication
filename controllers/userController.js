@@ -7,7 +7,7 @@ const AppError = require('../utils/AppError');
 const catchAsync = require('../utils/catchAsync');
 
 
-// ====== GET ALL USERS ====== 
+// ====== GET ALL USERS WITH CACHE====== 
 exports.getAllUsers = catchAsync(async (req, res, next) => {
   const cacheKey = "users:all";
   const start = Date.now(); // start time
@@ -38,7 +38,7 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
   }
 
   // 3️⃣ Store in Redis with TTL 60 seconds
-  await client.setEx(cacheKey, 60, JSON.stringify(users));
+  await client.setEx(cacheKey, process.env.REDIS_TTL, JSON.stringify(users));
 
   const timeTaken = Date.now() - start;
   logger.info(`Fetched all users from DB in ${timeTaken}ms`);
@@ -53,19 +53,91 @@ exports.getAllUsers = catchAsync(async (req, res, next) => {
 });
 
 
+// ====== GET USER BY ID WITH CACHE======
+exports.getUserById = catchAsync(async (req, res, next) => {
+  const userId = req.params.id;
+  const cacheKey = `user:${userId}`;
+  const start = Date.now();
 
-// ====== GET USER BY ID ======
-exports.getUserById = catchAsync(async (req, res) => {
-
-  const user = await User.findById(req.params.id).select("-password");
-  if (!user) {
-    logger.warn(`User not found: ${req.params.id}`);
-    return next(new AppError("User not found", 404))
+  // 1️⃣ Try to get user from Redis cache
+  const cachedUser = await client.get(cacheKey);
+  if (cachedUser) {
+    const timeTaken = Date.now() - start;
+    logger.info(`Fetched user by id ${userId} from Redis cache in ${timeTaken}ms`);
+    return res.status(200).json({
+      success: true,
+      source: "cache",
+      time: `${timeTaken}ms`,
+      data: JSON.parse(cachedUser),
+    });
   }
 
-  logger.info(`Fetched user by id: ${req.params.id}`);
-  res.status(200).json({ success: true, data: user });
+  // 2️⃣ If not found in cache, get from MongoDB
+  const user = await User.findById(userId).select("-password").populate("posts").lean();
+  if (!user) {
+    logger.warn(`User not found: ${userId}`);
+    return next(new AppError("User not found", 404));
+  }
 
+  // 3️⃣ Store user in Redis )
+  await client.setEx(cacheKey, process.env.REDIS_TTL, JSON.stringify(user));
+
+  const timeTaken = Date.now() - start;
+  logger.info(`Fetched user by id ${userId} from DB in ${timeTaken}ms`);
+
+  // 4️⃣ Send response
+  res.status(200).json({
+    success: true,
+    source: "db",
+    time: `${timeTaken}ms`,
+    data: user,
+  });
+});
+
+
+// ======= GET USER BY USER GMAIL WITH CACHE==============
+exports.getUserByUserGmail = catchAsync(async (req, res, next) => {
+  const usergmail = req.params.usergmail;
+  const cacheKey = `user:${usergmail}`;
+  const start = Date.now();
+
+  // 1️⃣ Try to get user from Redis cache
+  const cachedUser = await client.get(cacheKey);
+  if (cachedUser) {
+    const timeTaken = Date.now() - start;
+    logger.info(`Fetched user by gmail ${usergmail} from Redis cache in ${timeTaken}ms`);
+    return res.status(200).json({
+      success: true,
+      source: "cache",
+      time: `${timeTaken}ms`,
+      data: JSON.parse(cachedUser),
+    });
+  }
+
+  // 2️⃣ If not found in cache, get from MongoDB
+  const user = await User.findOne({ gmail: usergmail })
+    .select("-password")
+    .populate("posts")
+    .lean();
+
+  if (!user) {
+    logger.warn(`User not found: ${usergmail}`);
+    return next(new AppError("User not found", 404));
+  }
+
+  // 3️⃣ Store user in Redis
+  await client.setEx(cacheKey, process.env.REDIS_TTL, JSON.stringify(user));
+
+  const timeTaken = Date.now() - start;
+  logger.info(`Fetched user by gmail ${usergmail} from DB in ${timeTaken}ms`);
+
+  // 4️⃣ Send response
+  res.status(200).json({
+    success: true,
+    source: "db",
+    time: `${timeTaken}ms`,
+    data: user,
+  });
 });
 
 
@@ -82,6 +154,11 @@ exports.updateById = catchAsync(async (req, res, next) => {
   }
 
   logger.info(`User updated: ${req.params.id}`);
+
+  // ❌ Invalidate cache (this user + all users list)
+  await client.del(`user:${userId}`);
+  await client.del("users:all");
+
   res.json({
     success: true,
     message: "User updated successfully",
@@ -100,5 +177,10 @@ exports.deleteUserById = catchAsync(async (req, res, next) => {
   }
 
   logger.info(`User deleted: ${req.params.id}`);
+
+  // ❌ Invalidate cache (this user + all users list)
+  await client.del(`user:${userId}`);
+  await client.del("users:all");
+
   res.json({ success: true, message: "User deleted successfully" });
 });

@@ -9,6 +9,7 @@ const userSchema = new mongoose.Schema({
   otp: String,
   otpExpires: Date,
   profileImage: { type: String, default: null },
+  filePath: { type: String, default: null },
   refreshToken: { type: String },
 }, {
   timestamps: true,

@@ -12,7 +12,10 @@ router.use(authenticate);
 router.get('/', loginLimiter, authorize(['admin']), userController.getAllUsers);
 
 // ====== GET USER BY ID ======
-router.get('/:id', loginLimiter, authorize(['admin', 'user']), userController.getUserById);
+router.get('/userById/:id', loginLimiter, authorize(['admin', 'user']), userController.getUserById);
+
+// ====== GET USER BY gamil ======
+router.get('/userByGmail/:usergmail', loginLimiter, authorize(['admin', 'user']), userController.getUserByUserGmail);
 
 // ====== UPDATE USER BY ID ======
 router.put('/:id', loginLimiter, authorize(['admin']), userController.updateById);

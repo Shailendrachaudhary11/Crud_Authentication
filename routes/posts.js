@@ -9,11 +9,37 @@ const loginLimiter = require("../middleware/rateLimiter");   // rate limit
 
 router.use(authenticate); // all routes need auth
 
+// create post
 router.post('/', loginLimiter, validate(postValidationSchema), postController.createPost); // create post
-router.get('/', loginLimiter, authorize(['admin']), postController.getAllPosts);           // get all posts
-router.get('/:id', loginLimiter, authorize(['admin']), postController.getPostById);        // get post by id
+
+// get all posts
+router.get('/', loginLimiter, authorize(['admin']), postController.getAllPosts);
+
+//   getTopCommentedPost
+router.get("/top-commented", postController.getTopCommentedPost);
+
+//   getTopLikedPost
+router.get("/top-liked", postController.getTopLikedPost);
+
+// getPostById
+router.get('/getById/:id', loginLimiter, authorize(['admin', 'user']), postController.getPostById);
+
+// updatePost
 router.put('/:id', loginLimiter, validate(postValidationSchema), authorize(['admin']), postController.updatePost); // update post
+
+// deletePost
 router.delete('/:id', loginLimiter, authorize(['admin']), postController.deletePost);      // delete post by id
+
+//  deleteAllPost
 router.delete('/', loginLimiter, authorize(['admin']), postController.deleteAllPost);      // delete all posts
+
+// toggleLike
+router.post("/:id/like", postController.toggleLike);
+
+// toggleDislike
+router.post("/:id/dislike", postController.toggleDislike);
+
+// addComment
+router.post("/:id/comments", postController.addComment);
 
 module.exports = router;

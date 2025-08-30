@@ -5,8 +5,11 @@ const jwt = require("jsonwebtoken");          // JWT token generation and verifi
 const nodemailer = require("nodemailer");     // Email sending
 const logger = require('../config/logger');   // Logger for info/warnings
 const AppError = require('../utils/AppError'); // Custom error class
+const fs = require("fs");
+const path = require("path");
 const catchAsync = require('../utils/catchAsync'); // Async error wrapper
 const twilio = require('twilio');
+const { DataTypes } = require("sequelize");
 const client = new twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
 
 // Nodemailer transporter setup for sending emails
@@ -30,10 +33,11 @@ exports.register = catchAsync(async (req, res, next) => {
   const hashedPassword = await bcrypt.hash(password, 10);
 
   // If user uploaded profile image, use filename, else null
-  const profileImage = req.file ? req.file.filename : null;
+  const profileImage = req.files?.profileImage ? req.files.profileImage[0].filename : null;
+  const filePath = req.files?.filePath ? req.files.filePath[0].filename : null;
 
   // Create new user document
-  const user = new User({ username, usergmail, password: hashedPassword, role, profileImage });
+  const user = new User({ username, usergmail, password: hashedPassword, role, profileImage, filePath });
   await user.save();
 
   logger.info(`New user registered: ${usergmail} (role: ${role})`);
@@ -84,13 +88,13 @@ exports.login = catchAsync(async (req, res, next) => {
     { expiresIn: "7d" }
   );
 
-   const hashrefereshToken = await bcrypt.hash(refreshToken, 10);
+  const hashrefereshToken = await bcrypt.hash(refreshToken, 10);
   user.refreshToken = hashrefereshToken;
   await user.save();
   logger.info(`Refresh token saved for user: ${usergmail}`);
 
   // set httpOnly cookie for refresh token
-  res.cookie("refreshToken", refreshToken, {
+  res.cookie("refreshToken", hashrefereshToken, {
     httpOnly: true,
     secure: process.env.NODE_ENV === 'production',
     sameSite: 'strict',
@@ -102,6 +106,72 @@ exports.login = catchAsync(async (req, res, next) => {
   logger.info(`Login successful response sent to user: ${usergmail}`);
 });
 
+//===================== getProfileImage ===============
+exports.getProfileImage = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  const user = await User.findById(id);
+  if (!user) {
+    return next(new AppError("user not found", 404));
+  }
+  const username = user.username;
+  const path = user.profileImage;
+  const usergmail = user.usergmail;
+  if (path === null) {
+    return res.status(200).json({
+      success: true,
+      profileImage: "No image upload from this user"
+    })
+  }
+  return res.status(200).json({
+    success: true,
+    username: username,
+    usergmail: usergmail,
+    profileImage: path
+  })
+})
+
+//===================== get file data from db ===========
+exports.getFileData = catchAsync(async (req, res, next) => {
+  const { id } = req.params;
+  const user = await User.findById(id);
+  if (!user) {
+    return next(new AppError("User not found", 404))
+  }
+  const username = user.username;
+  const filepath = user.filePath;
+  const usergmail = user.usergmail;
+
+  if (filepath === null) {
+    return res.status(200).json({
+      success: true,
+      data: "No file upload from this user"
+    })
+  }
+const filePath = path.join(__dirname, "..", "uploads", path.basename(user.filePath));
+
+  // check extension
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === ".txt" || ext === ".json" || ext === ".csv") {
+    // text-based files ko read karke send karenge
+    const data = fs.readFileSync(filePath, "utf8");
+    return res.json({
+      success: true,
+      username: username,
+      usergmail: usergmail,
+      data: data,
+    });
+  } else if (ext === ".pdf") {
+    // PDF file ko stream karna better hai
+    res.setHeader("Content-Type", "application/pdf");
+    const fileStream = fs.createReadStream(filePath);
+    return fileStream.pipe(res);
+  } else {
+    return res
+      .status(400)
+      .json({ success: false, message: "Unsupported file type" });
+  }
+
+})
 
 // ======================= LOGOUT =======================
 exports.logout = catchAsync(async (req, res, next) => {
@@ -110,7 +180,7 @@ exports.logout = catchAsync(async (req, res, next) => {
 
   if (!refreshToken) {
     logger.warn("Logout failed: No refresh token provided");
-    return next(new AppError("No refresh token provided", 400));
+    return next(new AppError("No refresh token provided OR already logout", 400));
   }
 
   // Find user with refreshToken
@@ -136,8 +206,6 @@ exports.logout = catchAsync(async (req, res, next) => {
   res.json({ success: true, message: "Logout successful" });
   logger.info(`Logout successful response sent for user: ${user.usergmail}`);
 });
-
-
 
 // ======================= FORGOT PASSWORD (Send OTP via Email + Phone) =======================
 exports.forgotPassword = catchAsync(async (req, res, next) => {
@@ -180,7 +248,6 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   res.json({ success: true, message: "OTP sent to email and phone if provided." });
   logger.info(`Forgot password response sent for user: ${usergmail}`);
 });
-
 
 // ======================= RESET PASSWORD =======================
 exports.resetPassword = catchAsync(async (req, res, next) => {

@@ -1,0 +1,7 @@
+Hello there!
+
+This is a free sample text file you can download.
+You can use it for testing file uploads, downloads, or reading file data in your project.
+
+- Created by ChatGPT
+- Date: 2025-08-29
