@@ -5,7 +5,6 @@ MongoDB is used as the database.
 #Features
 
 User registration with hashed passwords (bcryptjs)
-
 User login with JWT tokens
 Password reset via email and OTP
 Create, read, update, delete posts (CRUD)
