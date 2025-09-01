@@ -16,10 +16,10 @@ MongoDB is used as the database.
 
 ## Tech Stack
 
--Backend: Node.js, Express.js
--Database: MongoDB (Mongoose ODM)
--Authentication: JWT, bcryptjs, hashing, refresh token
--Email & SMS: Nodemailer, Twilio
--Caching: Redis
--Logging: Winston
--Environment Management: dotenv
+- Backend: Node.js, Express.js
+- Database: MongoDB (Mongoose ODM)
+- Authentication: JWT, bcryptjs, hashing, refresh token
+- Email & SMS: Nodemailer, Twilio
+- Caching: Redis
+- Logging: Winston
+- Environment Management: dotenv
