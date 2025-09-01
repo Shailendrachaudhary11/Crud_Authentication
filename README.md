@@ -5,7 +5,7 @@ MongoDB is used as the database.
 ## Features
 
 - User registration with hashed passwords (bcryptjs)
-- User login with JWT tokens
+- User login with JWT tokens and refresh token
 - Password reset via email and OTP
 - Create, read, update, delete posts (CRUD)
 - Like/dislike posts and add comments
@@ -14,12 +14,12 @@ MongoDB is used as the database.
 - Centralized error handling and logging (winston)
 - Secure headers with helmet
 
-#Tech Stack
+## Tech Stack
 
-Backend: Node.js, Express.js
-Database: MongoDB (Mongoose ODM)
-Authentication: JWT, bcryptjs
-Email & SMS: Nodemailer, Twilio
-Caching: Redis
-Logging: Winston
-Environment Management: dotenv
+-Backend: Node.js, Express.js
+-Database: MongoDB (Mongoose ODM)
+-Authentication: JWT, bcryptjs, hashing, refresh token
+-Email & SMS: Nodemailer, Twilio
+-Caching: Redis
+-Logging: Winston
+-Environment Management: dotenv
