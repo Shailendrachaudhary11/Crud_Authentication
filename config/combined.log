@@ -1913,3 +1913,55 @@
 {"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 61ms"}
 {"level":"info","message":"Server running on port 1212"}
 {"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 68ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 68ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 64ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 60ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 110ms"}
+{"level":"info","message":"Fetched user by id 68a4d6a765e563ac6596a9ec from DB in 59ms"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Login attempt for email: salonijain@gmail.com"}
+{"level":"info","message":"Access token generated for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token saved for user: salonijain@gmail.com"}
+{"level":"info","message":"Refresh token cookie set for user: salonijain@gmail.com"}
+{"level":"info","message":"Login successful response sent to user: salonijain@gmail.com"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}
+{"level":"info","message":"Server running on port 1212"}
+{"level":"info","message":"MongoDB connected"}

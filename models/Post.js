@@ -15,7 +15,6 @@ const postSchema = new mongoose.Schema({
 
 module.exports = mongoose.model("Post", postSchema);
 
-
 // इस case में हर Post document में userId store होगा।
 // और जब आप Post.find().populate("userId") करेंगे, तो User का पूरा object आ जाएगा।
 
